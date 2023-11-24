@@ -35,7 +35,8 @@ public Connection conectar()
 return conn;
 }
 
-public void desconectar (){
+public void desconectar ()
+{
         try {
             conn.close();
         } catch (SQLException ex) {
